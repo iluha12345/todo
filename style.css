@@ -1,0 +1,43 @@
+body{ 
+    font-size:20px;
+}
+.container{
+    margin: 20px;
+}
+.add-task{
+    width: 40px;
+    height: 20px;
+    font-size:15px;
+    background-color: green;
+    border: none;
+    border-radius: 2px;
+
+}
+.add-task:hover{
+    background-color:greenyellow;
+}
+button{
+    font-size:15px;
+    background-color: pink;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+button:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+li{
+    margin: 10px 10px 0 0;
+    max-width: 300px;
+    border-bottom: 1px solid grey;
+}
+.line{
+    border-bottom: 1px solid grey;
+}
