@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>ToDo List</h1>
+    <div class="todo">
+      <div class="todo__input">
+        <input class="todo__text" type="text" />
+        <span class="todo__add"></span>
+      </div>
+      <select class="todo__options">
+        <option value="active">Active</option>
+        <option value="completed">Completed</option>
+        <option value="deleted">Deleted</option>
+      </select>
+      <ul class="todo__items" data-todo-option="active"></ul>
+    </div>
+  </body>
+</html>
